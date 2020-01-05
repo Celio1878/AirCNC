@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  background: #000 url('./img/background.jpg') no-repeat;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body, input, button {
+  font-family: 'Roboto', Arial, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  margin: 80px auto 0;
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  background: #fff;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.content > p {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content form label {
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.content form label span {
+  font-weight: normal;
+  color: #999;
+  font-size: 12px;
+}
+
+.content form input {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.content button.btn {
+  border: 0;
+  border-radius: 30px;
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #000ed6cb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content button.btn:hover {
+  background: #000cb8;
+}
+
+.content button.btnCancel {
+  border: 0;
+  border-radius: 30px;
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #fbff009a;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.content button.btnCancel:hover {
+  background: #fbff00;
+}
+
+.content button.btnQuit {
+  border: 0;
+  border-radius: 30px;
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #ff0000c5;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.content button.btnQuit:hover {
+  background: #ff0000;
+}
